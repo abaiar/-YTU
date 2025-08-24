@@ -3,7 +3,7 @@ import socketserver
 import webbrowser
 import os
 
-PORT = 8000
+PORT = 1234
 DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 
 class Handler(http.server.SimpleHTTPRequestHandler):
@@ -18,4 +18,5 @@ with socketserver.TCPServer(("", PORT), Handler) as httpd:
     print("按 Ctrl+C 停止服务器")
     # 自动打开浏览器
     webbrowser.open(f"http://localhost:{PORT}")
+
     httpd.serve_forever()
