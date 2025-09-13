@@ -1,4 +1,4 @@
-在文件夹地址下运行python文件（注意端口）即可本地服务器运行！
+在文件夹地址下运行python文件（注意端口）即可运行！
 
 本项目已上传OpenXLab!
 在线体验：https://openxlab.org.cn/apps/detail/abai/Teacher_Assistant_AI
